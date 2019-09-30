@@ -690,7 +690,7 @@ potential behavioral vulnerabilities.
 Simple things go a long way:
 
 * Use HTTPS whenever you can
-* Additionally use a trusted or reputable logless VPN
+* Additionally you can use a /trusted/ or /reputable/ logless VPN
 * Use a restrictive SOCKS proxy (that you control) to avoid leaking
   information to your ISP
 
@@ -732,8 +732,14 @@ What can you do about this?
 
 * Run DNS crypt proxy locally and choose a logless public resolver to query
   against: https://dnscrypt.org/
-* Always use a VPN for all traffic, for all public IPv4 and IPv6 interfaces
-  on your computer. *TODO: Jason :)*
+* Use a trusted VPN provider to avoid local network leakage but - again - vet
+  your VPN service provider.
+
+*Update (June 2019):*
+
+* In modern browsers you will soon be able to use DNS over HTTPS but vet your
+  resolver provider (e.g. Cloudflare) for your own risk concerns:
+  https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/~
 
 ---
 class: middle

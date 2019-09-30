@@ -197,7 +197,7 @@ e.g. ACME TLS certificates on provisioning of new images/instances, etc.
 
 * *Don't* use public or shared networks whenever possible.
 * *Do* use HTTPS as much as possible.
-* *Do* use Internet connectivity VPN when available/possible.
+* *Do* use Internet connectivity VPN when useful (e.g. geo debugging).
 * *Don't* leak information via your host/computer name on the local network
   on shared or public networks or make it obvious you where you work.
 * *Do* consider using DNScrypt proxy or a logless DNS resolver on a VPN when
@@ -205,6 +205,8 @@ e.g. ACME TLS certificates on provisioning of new images/instances, etc.
 * *Don't* trust ISP DNS resolvers. Keep a list of open public DNS resolver
   IPs you consider trust-worthy (e.g. Google?, OpenDNS, etc.). Applies on
   your home network as much as public or shared networks you don't control.
+* *Do* assess 3rd-party risk periodically for each party used (DNS resolvers,
+  VPN services for geo purposes, public WiFi networks).
 
 ---
 
